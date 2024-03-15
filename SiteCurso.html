@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>PawsPic</title>
+    </head>
+    <body>
+        <main>
+
+            <h1>PawsPic</h1>
+
+            <!--section-->
+
+            <section>
+                <h2>Fotos de Gatinhos</h2>
+                <p>Veja mais <a target="_blank" href="https://www.freecatphotoapp.com">fotos de gatos</a> na nossa galeria!</p>
+                <a target="_blank" href="https://freecatphotoapp.com"><img alt="Um gato fofo deitado de costas" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"></a>
+            </section>
+
+            <!--section-->
+
+            <section>
+                <h2>Lista de Gatinhos</h2>
+                <h3>Coisas que gatinhos adoram:</h3>
+                <ul>
+                    <li>Brinquedos</li>
+                    <li>Lasanhas</li>
+                    <li>Dominação Mundial</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Uma fatia de lasanha em um prato.">
+                    <figcaption>Gatos <strong><em>amam</em></strong> lasanha!</figcaption>
+                </figure>
+                <h3>Top 3 coisas que os gatos odeiam:</h3>
+                <ol>
+                    <li>Raios</li>
+                    <li>Gatos</li>
+                    <li>Capitalismo</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cinco gatinhos andando pelo gramado">
+                    <figcaption>Gatos <strong>odeiam</strong> outros gatos</figcaption>
+                </figure>
+            </section>
+            
+            <!--section -->
+
+            <section>
+                <h2>Formulário de Gatinhos</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+                <!--fieldset-->
+                <fieldset>
+                    <legend>O seu gato passa mais tempo dentro ou fora de casa?</legend>
+                    <!---->
+                    <input value="dentroCasa" name="fora-dentro" id="dentroCasa" type="radio" checked>
+                    <label for="dentroCasa"> Dentro de casa</label>
+                    <!---->
+                    <input value="foraCasa" name="fora-dentro" id="foraCasa" type="radio">
+                    <label for="foraCasa"> Fora de casa</label>
+                    <!---->
+                    <input value="colonoCasa" name="fora-dentro" id="colonoCasa" type="radio">
+                    <label for="colonoCasa"> Colonizador</label>
+                </fieldset>
+                <!--fieldset-->
+                <fieldset>
+                    <legend>Qual a personaliade do seu gato?</legend>
+                    <!---->
+                    <input value="carinhoso" name="personalidade" id="carinhoso" type="checkbox" checked>
+                    <label for="carinhoso"> Carinhoso</label>
+                    <!---->
+                    <input value="preguicoso" name="personalidade" id="preguicoso" type="checkbox">
+                    <label for="preguicoso"> Preguiçoso</label>
+                    <!---->
+                    <input value="imperador" name="personaliade" id="imperador" type="checkbox">
+                    <label for="imperador"> Imperador do Universo</label>
+                </fieldset>
+                <!--fieldset-->
+                <input required type="text" name="catphotourl" placeholder="URL da foto do seu gato!">
+                <button type="submit">Enviar</button>
+            </section>
+
+            <!--section-->
+
+        </main>
+        <footer>
+            <p>Livre de Copyright - <a target="_blank" href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+        </footer>
+    </body>
+</html>
